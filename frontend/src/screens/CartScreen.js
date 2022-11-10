@@ -7,7 +7,7 @@ import { addToCart, removeFromCart } from '../actions/cartActions'
 import { useNavigate } from 'react-router';
 
 
-const CartScreen = ({ history }) => {
+const CartScreen = () => {
     const navigate = useNavigate()
     const { id } = useParams()
 
